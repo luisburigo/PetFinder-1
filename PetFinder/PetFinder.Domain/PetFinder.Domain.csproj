@@ -41,8 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Cidade.cs" />
+    <Compile Include="Entities\Estado.cs" />
+    <Compile Include="Entities\Pais.cs" />
+    <Compile Include="Entities\PetImagem.cs" />
     <Compile Include="Entities\Pet.cs" />
     <Compile Include="Entities\Raca.cs" />
+    <Compile Include="Enums\Castrado.cs" />
+    <Compile Include="Enums\FormatoArquivoImagem.cs" />
+    <Compile Include="Enums\Porte.cs" />
+    <Compile Include="Enums\Sexo.cs" />
+    <Compile Include="Enums\TipoPet.cs" />
+    <Compile Include="Interfaces\ICamposPadrao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
